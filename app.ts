@@ -1,11 +1,16 @@
 import express from 'express';
 
-const app = express();
-const port = 3000;
+import { router as homeRouter } from './routes/homeRoutes';
 
-app.get('/', (_req, res) => {
-    res.send(`I am dev Marco`);
-})
+const app = express();
+const port = process.env.PORT || 8080;
+
+// views
+app.set('view engine', 'ejs');
+app.set('views', 'views');
+
+// routes
+app.use(homeRouter);
 
 app.listen(port, () => {
     console.log(`App is runnin on port: ${port}`);
