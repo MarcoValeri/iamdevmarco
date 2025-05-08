@@ -1,0 +1,21 @@
+{
+  "name": "iamdevmarco",
+  "version": "1.0.0",
+  "description": "Node, Express and TypeScript web app",
+  "license": "ISC",
+  "author": "Marco Valeri",
+  "type": "commonjs",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.16",
+    "nodemon": "^3.1.10"
+  }
+}
