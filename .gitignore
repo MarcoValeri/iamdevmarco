@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Next.js build output
+client/.next/
+client/out/
+
+# Node.js server build output (if you use TypeScript)
+server/dist/
+
+# Environment variables
+.env
+.env*.local
+client/.env
+client/.env*.local
+server/.env
+server/.env*.local
+
+# Logs
+*.log
+
+# macOS & Windows system files
+.DS_Store
+Thumbs.db
