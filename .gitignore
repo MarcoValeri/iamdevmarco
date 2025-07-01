@@ -24,3 +24,6 @@ server/.env*.local
 # macOS & Windows system files
 .DS_Store
 Thumbs.db
+
+# Visual Studio Code
+.vscode/
